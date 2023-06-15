@@ -1,0 +1,142 @@
+body {
+    margin: 0px 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .cert__header {
+    width: 100%;
+  }
+
+  .cert__umak {
+    width: 20%;
+   
+  }
+
+  .umak__lg {
+    width: 100px;
+    margin-left: 5px;
+  }
+
+  .header__detail {
+    text-align: center;
+    width: 100%;
+    padding-right: 0%;
+    white-space: nowrap;
+  }
+
+  .rp {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .cm {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .um {
+    margin: 0;
+    font-size: 22px;
+  }
+
+  .jp {
+    font-size: 10px;
+    margin: 0;
+  }
+
+  .tn {
+    font-size: 10px;
+  }
+
+
+  .cert__makati {
+    width: 100px;
+   
+  }
+
+  .makati__lg {
+    position: absolute;
+    margin-right: 5px;
+    width: 100px;
+  }
+
+  /* hanggang dito ang header */
+
+  .cert__reg {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5%;
+  }
+
+  .cert__cDate {
+    margin-left: 100%;
+    height: -5%;
+  }
+  .cert__cDate p {
+    line-height: -30%;
+    margin-bottom: -4px;
+  }
+
+  .cert__date {
+    margin-top: 12%;
+    line-height: 1px;
+    width: 100%;
+    height: 50px;
+    margin-left: 80%;
+  }
+
+  .cert__tDate {
+    margin-top: 5px;
+    display: inline-block;
+    padding-left: 3%;
+  }
+  
+  .cert__cDate hr {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 60%;
+  }
+
+  .cert__cert {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15%;
+    letter-spacing: 5px;
+  }
+
+  .cert__body {
+    margin-top: 3%;
+    font-size: 12px;
+  }
+
+  .cert__content, .cert__legal {
+    text-indent: 10%;
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .cert__legal {
+    padding-top: 4%;
+  }
+
+  /* hanggang dito lang body */
+
+  .cert__conclude {
+    margin-left: 55%;
+    margin-top: 18%;
+  }
+
+  .cert__uni {
+    padding-left: 5%;
+  }
+
+  .cert__final {
+    width:30%;
+    margin-top: 20%;
+    text-align: center;
+  }

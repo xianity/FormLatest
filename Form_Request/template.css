@@ -1,0 +1,179 @@
+body {
+  margin: 0px 20px;
+}
+
+table {
+  width: 70%;
+}
+
+.logo {
+  width: 80%;
+  margin-left: 27%;
+}
+
+.umak {
+  text-align: center;
+  height: 10%;
+  line-height: 10%;
+}
+
+h1 {
+  white-space: nowrap;
+  font-size: 20px;
+}
+.tdAddress {
+  font-size: 18px;
+}
+.cDate {
+  margin-left: 100%;
+  height: -5%;
+}
+.cDate p {
+  line-height: -30%;
+  margin-bottom: -4px;
+}
+.date {
+  margin-top: 5px;
+  float: right;
+  line-height: 1px;
+  width: 100%;
+  height: 50px;
+}
+.tDate {
+  margin-top: -15px;
+  display: block;
+}
+
+.cDate hr {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 60%;
+}
+
+.Dcontent {
+  width: 55%;
+  margin-top: 55px;
+}
+
+.rData1 {
+  font-size: 14px;
+}
+.rData2 {
+  display: block;
+  margin-top: -8%;
+}
+.rData2 {
+  display: block;
+  margin-top: -8%;
+  font-weight: bold;
+}
+
+.rData3 {
+  display: block;
+  margin-top: -9%;
+  font-size: 14px;
+}
+
+
+.studentInfo {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.studentInfo tr td {
+  border: 1px solid #000;
+}
+
+.studentInfo tr .zero {
+  border: none;
+}
+
+.info {
+  height: 70px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header {
+  margin-left: 75px;
+}
+
+.tableConclude {
+  width: 30%;
+  /* margin-left: 75%; */
+  margin-top: 10px;
+}
+
+.tableSignature {
+  /* text-align: center; */
+  width: 40%;
+  /* margin-right: 200px; */
+  margin-top: 40px;
+}
+
+.finalConclude {
+  width: 100%;
+  margin-top: 60px;
+  text-align: justify;
+}
+
+.urgency {
+  width: 7%;
+}
+
+.infoText {
+  width: 93%;
+}
+
+.urgency hr {
+  margin-top: -15px;
+  border: none;
+  border-bottom: 1.3px solid #000;
+}
+
+.request hr {
+  margin-top: -15px;
+  border: none;
+  border-bottom: 1.3px solid #000;
+}
+
+.entrust hr {
+  margin-top: -15px;
+  border: none;
+  border-bottom: 1.3px solid #000;
+}
+
+.mail hr {
+  margin-top: -15px;
+  border: none;
+  border-bottom: 1.3px solid #000;
+}
+
+.urgency p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.request p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.entrust p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.mail p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 5px;
+}
+
+/* .finalConclude tr td{ 
+  border: 1px solid #000;
+} */

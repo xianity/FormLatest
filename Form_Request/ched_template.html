@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="ched_template.css">
+    </head>
+    <body>
+        <table class="date">
+            <tr>
+                <td class="cDate"><p><strong>{{ date }}</strong></p></td>
+            </tr>
+            <tr>
+                <td class="tDate"><p>Date</p></td>
+            </tr>
+        </table>
+        
+        
+        <table class="Dcontent">
+            <tr>    
+                <td class="rData1"><p>Dr. JULIETA M. PARAS, CESE</p></td>
+            </tr>
+            <tr>
+                <td class="rData2"><p>Director IV</p></td>
+            </tr>
+            <tr>
+                <td class="rData3"><p>CHED National Capital Region</p></td>
+            </tr>
+            <tr>
+                <td class="rData4">2nd Floor Higher Education Development Center (HEDC) Bldg. 
+                    Carlos P. Garcia Avenue, UP Campus, Diliman, Quezon City </td>
+            </tr>
+        </table>
+
+
+            <p class="letter__Content">
+            I <b><u>{{ name }}</u></b>, would like to request your good office for the authentication of my academic records in 
+            <b><u>{{ course }}</u></b> issued by the  <b>University of Makati</b>. In this Connection, I am submitting the following records
+            through the Office of the Registrar:
+            </p>
+            <br>
+
+
+        <table class="studentInfo">
+            {{ record }}
+           
+        </table>
+        <br>
+
+        <table class="finalConclude">
+            <tr>
+                <td class="infoText">Thank you.</td>
+            </tr>
+            <tr>
+                <td class="infoConclude">Respectfully yours,</td>
+            </tr>
+        </table>
+
+        <table class="studentConclude">
+            <tr>
+                <td class="student__Name"><b>{{ name }}</b></td>
+            </tr>
+            <tr>
+                <td class="student__Text"><b>Student</b></td>
+            </tr>
+        </table>
+        <hr>
+       
+                
+         <br>
+
+            <h1 class="title">1st Indorsement</h1>
+            <p class="header__Umak">University of Makati</p>
+            <p class="date__format">{{ date }}</p>
+            <br>
+        
+
+        <p class="letter__content1">
+            Respectfully forwarded to the Acting Director, Authentication Division-Department of Foreign
+            Affairs, the request of <b><u>{{ name }}</u></b> for the authentication of his/her records,
+            recommending approval, with the certification that the documents forwarded herewith are true authentic copies of the documents issued and/or kept by this institution.
+        </p>
+
+        
+        <br>
+        <br>
+
+        <div class="letter__conclude">
+
+            <p><b>AMELIA P. PAJE, Ed. D.</b></p>
+            <p><b>University Registrar</b></p>
+        </div>
+        <br> <br> <br><br>
+        <table class="final__conclude">
+            <tr>
+                <td class="final__main">
+                    Note: The following documents are attached:
+                </td>
+            </tr>
+
+            {{ record }}
+        </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>

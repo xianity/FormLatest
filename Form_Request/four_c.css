@@ -1,0 +1,76 @@
+body {
+  margin: 0px 35px;
+}
+
+.f__head {
+  width: 27%;
+  margin-top: 6%;
+}
+
+.f__title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 6%;
+}
+
+.f__concern, .f__certify {
+  font-size: 17px;
+}
+
+.f__concern {
+  margin-top: 6%;
+}
+
+.f__certify {
+  text-align: center;
+  margin-top: 5%;
+}
+
+/* hanggang dito ang header */
+
+.f__table {
+  width: 100%;
+  font-size: 15px;
+  margin-top: 4%;
+}
+
+.f__content {
+  text-indent: 10%;
+  text-align: justify;
+  margin-top: 3%;
+}
+
+.f__fcontent {
+  text-indent: 10%;
+  text-align: justify;
+  margin-top: 3%;
+}
+
+.f__issue {
+  text-indent: 10%;
+  text-align: justify;
+  margin-top: 5%;
+}
+
+/* hanggang dito lang ang content */
+
+.f__conclude {
+  margin-left: 65%;
+  margin-top: 15%;
+}
+
+.f__uni {
+  padding-left: 5%;
+}
+
+.f__final {
+  width: 50%;
+  margin-top: 5%;
+  text-align: justify;
+}
+
+.f__finale {
+  width: 29%;
+  margin-top: 5%;
+}

@@ -1,0 +1,150 @@
+body {
+    margin: 0px 20px;
+  }
+  
+  table {
+    width: 70%;
+  }
+
+  .wewe {
+    width: 100%;
+  }
+  
+  .logo {
+    width: 65%;
+    margin-left: 25%;
+  }
+  
+  .umak {
+    text-align: center;
+    height: 20%;
+    line-height: 10%;
+  }
+  
+  h1 {
+    white-space: nowrap;
+    font-size: 20px;
+  }
+  .tdAddress {
+    font-size: 18px;
+  }
+  .cDate {
+    margin-left: 100%;
+    height: -10%;
+  }
+  .cDate p {
+    line-height: -30%;
+    margin-bottom: -4px;
+  }
+
+  .date {
+    line-height: 1px;
+    width: 100%;
+    height: 50px;
+    margin-left: 80%;
+  }
+
+  .tDate {
+    margin-top: 5px;
+    display: inline-block;
+    padding-left: 3%;
+  }
+  
+  .cDate hr {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 60%;
+  }
+
+  .header {
+    margin-left: 75px;
+  }
+
+  .Dcontent {
+    width: 60%;
+    font-size: 16px;
+  }
+  
+  .rData1 {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .rData2 {
+    display: block;
+    margin-top: -7%;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .rData3 {
+    display: block;
+    margin-top: -7%;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .rData4 {
+    display: block;
+    margin-top: -4%;
+    font-size: 14px;
+  }
+
+  .letter__Content {
+    font-size: 18px;
+    text-align: justify;
+    
+  }
+
+
+
+  .studentInfo {
+    margin-left: 80px;
+    
+  }
+
+  .info1 {
+    padding-left: 30%;
+  }
+
+  .info2 {
+    padding-left: 31%;
+  }
+
+  .info3 {
+    padding-left: 32%;
+  }
+
+
+  .finalConclude {
+    text-align: left;
+  }
+  
+  
+
+  .studentConclude {
+    margin-top: 3%;
+  }
+
+  /* .student__Name {
+    margin-top: 50%;
+  }
+
+  .student__Text {
+    margin-top: -50%;
+  } */
+
+  .letter__conclude{
+    float: right;
+    line-height: 1px;
+    margin-right: 120px;
+ 
+  }
+  .letter__content1{
+    text-indent: 40px;
+  }
+  .title,.header__Umak,.date__format{
+    text-align: center;
+    line-height: 10px;
+  }

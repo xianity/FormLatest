@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gloock&family=Hammersmith+One&family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@500;700;800&family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(img/UMakBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+/* NAVIGATION BAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #073775; */
+  color: white;
+  padding: 0 50px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 2vw;
+  padding: 0.5% 0;
+  font-family: "Inria Serif", serif;
+}
+
+.logo img {
+  height: 3vw;
+  margin-right: 10px;
+}
+
+.nav-links {
+  display: flex;
+}
+.nav-links li {
+  list-style: none;
+  padding: 5% 0;
+  transition: all 0.5s ease-out;
+}
+.nav-links li a {
+  margin: 0 20px;
+  font-size: 1.1vw;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+#active {
+  /* background-color: #0a4ca1; */
+  font-weight: 800;
+}
+.nav-links li:hover {
+  /* background-color: #0a4ca1; */
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+.nav-links li .logout {
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1.1vw;
+  width: 6vw;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.fa-solid {
+  padding: 5px 20px 0px 20px;
+}
+/* END OF NAVIGATION BAR */
+
+.content {
+  position: absolute;
+  top: 52.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  height: 40vw;
+  width: 30vw;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 1% 3%;
+}
+.header {
+  font-size: 2.5vw;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #fff6c9;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+}
+
+.info:hover .pop-up {
+  display: block;
+}
+.pop-up {
+  position: absolute;
+  right: -15%;
+  top: 60%;
+  display: none;
+  background-color: #ffffff5e;
+  width: 7vw;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 15px;
+  color: black;
+  font-size: 12px;
+  font-weight: 100;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+
+label {
+  padding: 0 0 0 0;
+}
+
+.gender {
+  width: 20vw;
+}
+.gender__select {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+form input {
+  padding: 0 2%;
+  border-radius: 15px;
+  height: 2vh;
+  font-size: 2vh;
+  background: transparent;
+  outline: none;
+  border: none;
+  border: 1px solid white;
+  margin-left: 3%;
+  color: black;
+}
+
+input[type=text]{
+  height: 3vh;
+  padding: 3px 0;
+  padding-left: 10px;
+}
+
+input[type=submit]{
+  height: 3.8vh;
+}
+
+.docuSubmit {
+  font-size: 18px;
+}
+
+#coe, #f137 {
+  margin-top: 0.3vw;
+}
+
+
+p {
+  margin-top: 1vw;
+  font-weight: 700;
+  color: white;
+}
+table td {
+  font-size: 1.1vw;
+  padding-left: 6%;
+}
+.submitBtn {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 5vw;
+  justify-self: center;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  padding: 1%;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  cursor: pointer;
+}
+/* FOOTER */
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 7%;
+  width: 100%;
+  /* background-color: #073775; */
+}
+
+@media screen and (max-height: 947px) {
+  .pop-up {
+    position: absolute;
+    right: -5%;
+    top: 50%;
+    cursor: pointer;
+  }
+}

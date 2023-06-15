@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloock&family=Hammersmith+One&family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@500;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(img/UMakbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.blueContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1C2241;
+  opacity: 75%;
+  z-index: -1;
+}
+
+.whiteContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 90%;
+}
+
+img {
+  display: inline;
+  width: 17.5%;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  align-items: center;
+  margin-left: 14%;
+  margin-right: 14%;
+}
+.umaklogocenter {
+  width: 45%;
+}
+
+.logIn {
+  z-index: 1;
+  width: 40%;
+}
+.compress {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  text-align: center;
+}
+.big {
+  color: #1C2241;
+  font-size: 70px;
+  margin-left: 15%;
+  font-family: "Heebo", sans-serif;
+  font-weight: 800;
+  height: 100px;
+  padding: 1px;
+}
+.yellowBox {
+  position: absolute;
+  border: none;
+  border-left: 15px solid #fede00;
+  height: 3.5rem;
+  display: flex;
+  margin-top: 1%;
+}
+.verify {
+  font-size: 45px;
+  font-weight: 400;
+  color: #1C2241;
+  margin-top: -7.3%;
+  font-family: "Hammersmith One", sans-serif;
+}
+
+input {
+  position: relative;
+  width: 80%;
+  padding: 15px 15px 15px 15px;
+  border-style: none;
+  border-radius: 4px;
+  background-color: #eeecec;
+  font-size: 15px;
+  border: 2px solid #b9b9bb;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #1C2241;
+}
+
+input[type="submit"] {
+  bottom: 10%;
+  width: 88%;
+  border-radius: 5px;
+  padding: 11px 12px;
+  color: white;
+  background-color: #1C2241;
+  font-size: 120%;
+  font-weight: 800;
+  font-family: "Inter", sans-serif;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #fede00;
+  color: #073775;
+}
+
+.buttonCenter {
+  display: flex;
+ 
+  width: 100%;
+  border-radius: 5px;
+
+}
+
+.username,
+.password {
+  color: #1C2241;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  margin-top: 10%;
+  font-size: 15px;
+}
+
+.fpass {
+  float: right;
+  font-family: "Inter", sans-serif;
+  color: #1C2241;
+  margin-top: 1%;
+}
+
+.showMe {
+  position: relative;
+  width: 92%;
+  padding-right: 40px;
+  border-style: none;
+  border-radius: 4px;
+  background-color: #d9d9d9;
+  font-size: 25px;
+}
+
+
+
+#show-pass {
+  position: absolute;
+  right: 3%;
+  top: 2px;
+  bottom: 2px;
+  cursor: pointer;
+  z-index: 1;
+  justify-content: right;
+  align-items: center;
+  display: flex;
+  font-size: 16px;
+  color: #073775;
+}
+
+.fa {
+    width: 30px;
+    left: 92%;
+}
+
+.fa-eye:before {
+  content: "\f06e";
+  display: flex;
+  
+}
+
+.fa-eye-slash:before {
+  content: "\f070";
+}
+
+.inc {
+  margin-left: 2%;
+  color:#1C2241;
+  font-size: 1vw;
+  margin-top: 2%;
+}

@@ -1,0 +1,87 @@
+main{
+    display: flex;
+    
+    justify-content: center;
+    height: 50%;
+
+}
+.container{
+    height:72vh;
+    width: 30%;
+    background-color: #D2D0D0;
+    margin-top: 13%;   
+  
+}
+.title{
+    background-color: #1c2241;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 1.2vw;
+    padding: 3% 0 3% 0;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    font-family: 'EB Garamond', serif;
+}
+.fill{
+    padding-left: 4vw;
+    padding-right: 4vw;
+    font-family: 'EB Garamond', serif;
+    margin-top: 3vh;
+    font-weight: 600;
+}
+.flex1{
+    padding-left: 4vw;
+    padding-right: 4vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+label {
+    font-family: 'EB Garamond', serif;
+    font-size: 0.7vw;
+    margin-top: 1.6vh;
+    font-weight: 600;
+    margin-left: 3px;
+}
+.main-flex input[type="text"], select,input[type="date"] {
+    padding: 2.7%;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    border: none;
+    margin-top: 1%;
+    font-size: 0.7vw;
+}
+
+.gender{
+    display: flex;
+    gap: 15px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.UNITS{
+    margin-top: 3%;
+    
+}
+#unit{
+    font-weight: 400;
+}
+
+
+.buttonForm button, .submitBtn {
+    font-family: 'EB Garamond', serif;
+    padding: 0.62vw 1.5vw 0.62vw 1.5vw;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #1c2241;
+    font-size: 0.6vw;
+    margin-left: 30px;
+    margin-top: 3vw;
+
+}
+.buttonForm{
+    float: right;
+    
+}
