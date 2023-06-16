@@ -23,6 +23,6 @@
             </div>
          </div>
           
-          <p>LOG OUT</p>    
+          <a href="#">LOGOUT</a>    
         </div>
     </nav>
