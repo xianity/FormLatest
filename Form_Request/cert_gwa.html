@@ -41,16 +41,19 @@
 
         <div class="cert__body">
             <p class="cert__content">
-                This is to certify that based on records, <b>{{ name }}</b>, a First year student of <b>{{ nof }}</b>
-                is presently registered this {{ semester }} Academic Year 2022-2023.
+                {{ body1 }}
+                <!-- This is to certify that based on records, <b>{{ name }}</b>, a First year student of <b>{{ nof }}</b>
+                is presently registered this {{ semester }} Academic Year 2022-2023. -->
             </p>
     
             <p class="cert__legal">
-                This further certifies that <b>{{ lastname }}</b> obtained a <b>General Weighted Average (GWA) of {{ gwa }}</b> during the {{ semester }} AY 2022-2023.
+                {{ body2 }}
+                <!-- This further certifies that <b>{{ lastname }}</b> obtained a <b>General Weighted Average (GWA) of {{ gwa }}</b> during the {{ semester }} AY 2022-2023. -->
             </p>
 
             <p class="cert__legal">
-                This certification is being issued upon request of {{ lastname }} for whatever legal purposes it may serve him.
+                {{ body3 }}
+                <!-- This certification is being issued upon request of {{ lastname }} for whatever legal purposes it may serve him. -->
             </p>
             <p class="cert__legal">
                 Issued on {{ date }}.
@@ -62,7 +65,9 @@
 
             <tr >
                 <td class="cert__signature">
-                    <b>DANILO C. SABADO, DT</b>
+
+                    <b> {{ body4 }}</b>
+                    <!-- <b>LHAN ZELL O. REYES, IT</b> -->
                 </td>
             </tr>
 

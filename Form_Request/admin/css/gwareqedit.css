@@ -1,0 +1,73 @@
+.pdf-container{
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 35%;
+}
+
+.headerumak img{
+    width: 20%;
+    height: 100%; 
+}
+.contentheader{
+    width: 60%;
+}
+.rp {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .cm {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .um {
+    margin: 0;
+    font-size: 22px;
+  }
+
+  .jp {
+    font-size: 10px;
+    margin: 0;
+  }
+
+  .tn {
+    font-size: 10px;
+  }
+  #headOffice{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+
+#certicateheader{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80px;
+  }
+
+  #textarea
+  {
+    text-indent: 50px;
+    margin-bottom: 20px;
+  }
+
+.contentedit1{
+    margin-top: 70px;
+}
+#date{
+    text-indent: 50px;
+}
+.signature{
+    margin-left: 350px;
+    margin-top: 100px;
+}
+
+.seal{
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+#myInput{
+    font-weight: bold;
+   
+}

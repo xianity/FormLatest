@@ -1,3 +1,14 @@
+<?php
+
+include "condb.php";
+
+
+
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,8 +54,7 @@
     </table>
     
     <p>Dear Sir / Madam :<br><br>
-        Please furnish this office with a certified copy of <strong> <u>{{ selector }}</u> </strong>of the following students
-        who have temporarily registered in this school upon presentation of their credential:
+        {{ body1 }}<strong> <u>{{ selector }}</u> </strong>{{ body2 }}
         </p>
         <br>
 
@@ -79,7 +89,7 @@
         <table class="tableSignature">
             <tr>
                 <td>
-                    for: <strong>DANILO C. SABADO, DT</strong>
+                    for: <strong>{{ forname }}</strong>
                 </td>
             </tr>
 

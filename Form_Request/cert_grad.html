@@ -47,13 +47,15 @@
 
         <div class="cert__body">
             <p class="cert__content">
-                This is to certify that <u><b>{{ name }}</b></u> graduated with the Degree of 
-                <u><b>{{ course }}</b></u> <u><b>{{ dog }}</b></u>, College of Continuing, Advanced, and Professional Studies , this University.
+                {{ body1 }}
+                <!-- This is to certify that <u><b>{{ name }}</b></u> graduated with the Degree of 
+                <u><b>{{ course }}</b></u> <u><b>{{ dog }}</b></u>, College of Continuing, Advanced, and Professional Studies , this University. -->
             </p>
     
             <p class="cert__legal">
-                This certificate is issued upon the request of <u><b>{{ name1 }}</b></u> for whatever
-                legal purpose it may serve.
+                {{ body2 }}
+                <!-- This certificate is issued upon the request of <u><b>{{ name1 }}</b></u> for whatever
+                legal purpose it may serve. -->
             </p>
         </div>
         <br><br>
@@ -63,7 +65,7 @@
 
             <tr >
                 <td class="cert__signature">
-                    <b>DANILO C. SABADO, DT</b>
+                    <b>{{ body3 }}</b>
                 </td>
             </tr>
 

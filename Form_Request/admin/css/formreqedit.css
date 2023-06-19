@@ -1,0 +1,147 @@
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.pdf-container{
+    background-color: white;
+    width: 45%;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 60px;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%;
+
+}
+
+#umaklogo{
+    width: 90px;
+}
+
+
+.headerumak{
+    display: flex;
+    justify-content: center;
+}
+.contentheader{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#date{
+
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.schoolInfo{
+    margin-bottom: 23px;
+}
+.contentedit{
+    text-indent: 100px;
+    margin-top: 20px;
+}
+
+.studentInfo {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .studentInfo tr td {
+    border: 1px solid #000;
+  }
+  
+  .studentInfo tr .zero {
+    border: none;
+  }
+
+  .info {
+    height: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+tbody tr td {
+    text-align: center;
+    padding: 0px 0px;
+}
+.signature{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.finalConclude {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+   
+  }
+.infoText{
+    text-align: start;
+}
+.finalConclude hr{
+    width: 25px;
+    margin-top: 8px;
+  
+
+}
+#myInput{
+    overflow: auto;
+    width: 45%;
+    font-size: 15px;
+    border: none;
+    padding: 5px 5px;
+    Outline:none;
+}
+
+#textarea{
+    resize: none;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    line-height: 20px;
+    Outline:none;
+    overflow: hidden;
+    
+}
+#save{
+    font-family: 'EB Garamond', serif;
+    padding: 0.62vw 1.5vw 0.62vw 1.5vw;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #1c2241;
+    font-size: 0.6vw;
+    margin-left: 30px;
+    margin-top: 3vw;
+    position: absolute;
+    z-index: 1;
+    bottom:90px;
+    right: 70px;
+
+}
+
+
+
+.pdf-container::-webkit-scrollbar-track{
+    background-color: gold;
+    width: 30px;
+    height: 30px;
+}
+main::-webkit-scrollbar-thumb{
+    background-color: gold;
+}

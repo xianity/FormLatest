@@ -42,6 +42,15 @@ else{
     echo "Failed to insert history";
 }
 
+$result = mysqli_query($conn, "SELECT * FROM gwaform");
+
+$get = mysqli_fetch_assoc($result);
+$body1 = $get['contentedit1'];
+$body2 = $get['contentedit2'];
+$body3 = $get['contentedit3'];
+$body4 = $get['forname'];
+
+
 
 $options = new Options;
 $options->set('isRemoteEnabled', true);
@@ -54,7 +63,7 @@ $dompdf->setPaper("A4", "portrait");
 
 
 $html = file_get_contents("cert_gwa.html");
-$html = str_replace(["{{ date }}", "{{ name }}","{{ nof }}","{{ semester }}","{{ gwa }}","{{ lastname }}"], [$date, $gendername, $nof , $semester,$gwa ,$lname], $html);
+$html = str_replace(["{{ body1 }}","{{ body2 }}","{{ body3 }}","{{ body4 }}","{{ date }}", "{{ name }}","{{ nof }}","{{ semester }}","{{ gwa }}","{{ lastname }}"], [$body1,$body2,$body3,$body4,$date, $gendername, $nof , $semester,$gwa ,$lname], $html);
 
 
 

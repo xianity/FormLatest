@@ -43,6 +43,14 @@ else
     $surname = "Mr. ".$lastWord;
 }
 
+$result = mysqli_query($conn, "SELECT * FROM c1form");
+
+$get = mysqli_fetch_assoc($result);
+$body1 = $get['contentedit1'];
+$body2 = $get['contentedit2'];
+$body3 = $get['contentedit3'];
+$body4 = $get['forname'];
+
 // foreach($record as $recordrow){
 //     $printrecord .= "<tr>
 //     <td class='final_admin'>". $row."."."<u>".$recordrow."</u></td>
@@ -78,7 +86,7 @@ $dompdf->setPaper("A4", "portrait");
 
 
 $html = file_get_contents("c1-template.html");
-$html = str_replace(["{{ date }}", "{{ name }}", "{{ degree }}","{{ dategrad }}","{{ mater }}","{{ unit1 }}","{{ unit2 }}","{{ unit3 }}","{{ unit4 }}","{{ surname }}"], [$date, $gendername, $degree, $formattedDate, $mater,$unit1,$unit2,$unit3,$unit4,$surname], $html);
+$html = str_replace(["{{ body1 }}","{{ body2 }}","{{ body3 }}","{{ body4 }}","{{ date }}", "{{ name }}", "{{ degree }}","{{ dategrad }}","{{ mater }}","{{ unit1 }}","{{ unit2 }}","{{ unit3 }}","{{ unit4 }}","{{ surname }}"], [$body1,$body2,$body3,$body4,$date, $gendername, $degree, $formattedDate, $mater,$unit1,$unit2,$unit3,$unit4,$surname], $html);
 
 
 

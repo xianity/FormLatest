@@ -1,0 +1,191 @@
+
+  
+  table {
+    width: 70%;
+  }
+
+  .wewe {
+    width: 100%;
+  }
+  
+  .logo {
+    width: 65%;
+    margin-left: 25%;
+  }
+  
+  .umak {
+    text-align: center;
+    height: 20%;
+    line-height: 10%;
+  }
+  
+  h1 {
+    white-space: nowrap;
+    font-size: 20px;
+  }
+  .tdAddress {
+    font-size: 18px;
+  }
+  
+
+
+ .date{
+    float: right;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+ }
+  
+ .headerdetails{
+    margin-top: 120px;
+ }
+
+  .header1 {
+    margin-left: 75px;
+  }
+
+  .Dcontent {
+    width: 60%;
+    font-size: 16px;
+  }
+  
+  .rData1 {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .rData2 {
+    display: block;
+   
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .rData3 {
+    display: block;
+   
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .rData4 {
+    display: block;
+   
+    font-size: 14px;
+  }
+
+  .letter__Content {
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 5%;
+
+    
+  }
+
+
+
+  .studentInfo {
+    margin-left: 80px;
+    
+  }
+
+  .info1 {
+    padding-left: 30%;
+  }
+
+  .info2 {
+    padding-left: 31%;
+  }
+
+  .info3 {
+    padding-left: 32%;
+  }
+
+
+  .finalConclude {
+    text-align: left;
+  }
+  
+  
+
+  .student {
+    margin-top: 3%;
+  }
+
+  /* .student__Name {
+    margin-top: 50%;
+  }
+
+  .student__Text {
+    margin-top: -50%;
+  } */
+
+  .letter__conclude{
+    float: right;
+    line-height: 19px;
+    margin-right: 120px;
+ 
+  }
+  .letter__content1{
+    
+    margin-top: 30px;
+  }
+  .title,.header__Umak,.date__format{
+    text-align: center;
+    line-height: 20px;
+  }
+  .final__conclude{
+    margin-bottom: 150px;
+  }
+  #textarea{
+    text-indent: 40px;
+    text-align: justify;
+  }
+  #myInput{
+    width: 90%;
+  }
+
+ #page1{
+
+    
+  }
+  #page2{
+
+    display: none;
+  }
+  #page3{
+
+    display: none;
+  }
+
+
+
+
+
+.buttonpage{
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.buttonpage button{
+  background-color: rgba(245, 222, 179, 0);
+  outline: none;
+  border: none;
+  font-size: 15px;
+
+}
+.buttonpage button:hover{
+  color: rgb(9, 9, 145);
+
+
+}
+
+
+
+
+  

@@ -61,6 +61,10 @@ nav{
     position: relative;
     display: inline-block;
 }
+
+.dropdown button i{
+margin-left: 5px;
+}
 .dropdown-content{
     display: none;
     position: absolute;  

@@ -60,6 +60,31 @@ else{
     echo "Failed to insert history";
 }
 
+$result = mysqli_query($conn, "SELECT * FROM chedform1");
+
+$get = mysqli_fetch_assoc($result);
+$body1 = $get['contentedit1'];
+$body2 = $get['contentedit2'];
+$body3 = $get['contentedit3'];
+$body4 = $get['forname'];
+
+$result = mysqli_query($conn, "SELECT * FROM chedform2");
+
+$get = mysqli_fetch_assoc($result);
+$body21 = $get['content2edit1'];
+$body22 = $get['content2edit2'];
+$body23 = $get['forname2'];
+
+
+$result = mysqli_query($conn, "SELECT * FROM chedform3");
+
+$get = mysqli_fetch_assoc($result);
+$body31 = $get['content3edit1'];
+$body32 = $get['content3edit2'];
+$body33 = $get['content3edit3'];
+$body34 = $get['forname3'];
+
+
 
 $options = new Options;
 $options->set('isRemoteEnabled', true);
@@ -70,13 +95,13 @@ $dompdf = new Dompdf($options);
 $dompdf->setPaper("A4", "portrait");
 
 $html = file_get_contents("ched_template.html");
-$html = str_replace(["{{ date }}", "{{ name }}","{{ course }}","{{ record }}"], [$date, $gendername, $course,$printrecord1], $html);
+$html = str_replace(["{{ body1 }}","{{ body2 }}","{{ body3 }}","{{ body4 }}","{{ date }}", "{{ name }}","{{ course }}","{{ record }}"], [$body1,$body2,$body3,$body4,$date, $gendername, $course,$printrecord1], $html);
 
 $html2 = file_get_contents("cert_grad.html");
-$html .= str_replace(["{{ date }}", "{{ name }}","{{ course }}","{{ name1 }}","{{ dog }}"], [$date, $gendername, $course,$lastname,$formattedDate], $html2);
+$html .= str_replace(["{{ body1 }}","{{ body2 }}","{{ body3 }}","{{ date }}", "{{ name }}","{{ course }}","{{ name1 }}","{{ dog }}"], [$body21,$body22,$body23,$date, $gendername, $course,$lastname,$formattedDate], $html2);
 
 $html3 = file_get_contents("four_c.html");
-$html .= str_replace(["{{ date }}", "{{ name }}","{{ course }}","{{ units }}","{{ lastname }}","{{ year }}"], [$date, $name, $course,$nou,$lastname,$year], $html3);
+$html .= str_replace(["{{ body1 }}","{{ body2 }}","{{ body3 }}","{{ body4 }}","{{ date }}", "{{ name }}","{{ course }}","{{ units }}","{{ lastname }}","{{ year }}"], [$body31,$body32,$body33,$body34,$date, $name, $course,$nou,$lastname,$year], $html3);
 
 
 

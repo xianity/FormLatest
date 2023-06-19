@@ -40,9 +40,15 @@ else {
     $urgentYN = "&nbsp;";
 }
 
+$result = mysqli_query($conn, "SELECT * FROM requestform");
+
+$get = mysqli_fetch_assoc($result);
+$body1 = $get['body1'];
+$body2 = $get['body2'];
+$forname = $get['forname'];
 
 
-$sql ="INSERT INTO history_page (username,date,studentName,formtype,yearSec,acadYear,schoolName,schoolAddress,urgency,timeReq,copyormail) VALUES ('$username','$date','$name','$selector','$ysc','$ay','$nofSchool','$AofSchool','$urgentVal','$tr','$modeVal')";
+$sql = "INSERT INTO history_page (username,date,studentName,formtype,yearSec,acadYear,schoolName,schoolAddress,urgency,timeReq,copyormail) VALUES ('$username','$date','$name','$selector','$ysc','$ay','$nofSchool','$AofSchool','$urgentVal','$tr','$modeVal')";
 
 if($result = mysqli_query($conn,$sql))
 
@@ -60,8 +66,8 @@ $dompdf->setPaper("A4", "portrait");
 
 // $html = file_get_contents("template.html");
 // $html = str_replace(["{{ nofSchool }}","{{ AofSchool }}", "{{ selector }}", "{{ name }}", "{{ ysc }}", "{{ ay }}", "{{ date }}", "{{ urgentVal }}", "{{ urgentYN }}", "{{ tr }}", "{{ modeVal }}", "{{ entrust }}", "{{ mail }}"], [$nofSchool,$AofSchool,$selector,$name,$ysc,$ay,$date,$urgentVal, $urgentYN, $tr, $modeVal, $entrust, $mail], $html);
-$html = file_get_contents("template.html");
-$html = str_replace(["{{ nofSchool }}","{{ AofSchool }}", "{{ selector }}", "{{ name }}", "{{ ysc }}", "{{ ay }}", "{{ date }}", "{{ urgentVal }}", "{{ urgentYN }}", "{{ tr }}", "{{ modeVal }}", "{{ entrust }}", "{{ mail }}"], [$nofSchool,$AofSchool,$selector,$name,$ysc,$ay,$date,$urgentVal, $urgentYN, $tr, $modeVal, $entrust, $mail], $html);
+$html = file_get_contents("template.php");
+$html = str_replace(["{{ nofSchool }}","{{ AofSchool }}", "{{ selector }}", "{{ name }}", "{{ ysc }}", "{{ ay }}", "{{ date }}", "{{ urgentVal }}", "{{ urgentYN }}", "{{ tr }}", "{{ modeVal }}", "{{ entrust }}", "{{ mail }}","{{ body1 }}","{{ body2 }}","{{ forname }}"], [$nofSchool,$AofSchool,$selector,$name,$ysc,$ay,$date,$urgentVal, $urgentYN, $tr, $modeVal, $entrust, $mail, $body1, $body2, $forname], $html);
 $dompdf->loadHTMl($html);
 //$dompdf->loadHtmlFile("template.html");
 
