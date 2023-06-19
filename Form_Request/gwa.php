@@ -10,11 +10,20 @@
 </head>
 <body>
     <?php include 'header.php';?>
+    <br><br><br>
     <main>
         <div class="container">
-            <div class="titleheader">
+        <div class="titleheader">
                 <p>GWA CALCULATOR</p>
-            </div>
+        </div>
+        <div>
+            <h2>STUDENT NAME</h2>
+            <input type="text" name="name" id="name" placeholder="Enter Student Name" requied>
+            <h2>PROGRAM</h2>
+            <input type="text" name="program" id="program" placeholder="Enter Student Program" requied>
+            <h2>COURSE</h2>
+            <input type="text" name="course" id="course" placeholder="Enter Student Course" requied>
+        </div>
             <div class="inputDesign">
                 <div class="Input3">
                     <h2>SUBJECT</h2>
@@ -44,7 +53,7 @@
             </div>
         </div>
     </main>
-
+    <br><br>
     <footer>
     </footer>
 
