@@ -23,6 +23,6 @@
             </div>
          </div>
           
-          <a href="#">LOGOUT</a>    
+          <a href="admin/logout.php">LOGOUT</a>    
         </div>
     </nav>

@@ -101,7 +101,6 @@ tbody tr td {
 }
 #myInput{
     overflow: auto;
-    width: 45%;
     font-size: 15px;
     border: none;
     padding: 5px 5px;

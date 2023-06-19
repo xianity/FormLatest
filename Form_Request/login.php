@@ -11,11 +11,18 @@ if(isset($_POST['submit'])){
    $select = mysqli_query($conn, "SELECT * FROM form_account WHERE email = '$email' AND password = '$pass'") or die('query failed');
 
    if (mysqli_num_rows($select) >0) {
-        header('location:formrequest.php');
+        
         $_SESSION['username'] = $email;
-
         $result = mysqli_fetch_assoc($select);
         $_SESSION['id'] = $result['account_id'];
+       $user_type = $result['user_type'];
+       if ($user_type == "admin") {
+        header('location:admin/formreqedit.php');
+       }
+       else{
+          header('location:formrequest.php');
+       }
+      
    }
 
     else { 
