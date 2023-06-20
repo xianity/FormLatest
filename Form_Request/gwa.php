@@ -67,7 +67,7 @@
 
     <script>
     $(document).ready(function () {
-        var counter = 3;
+        var counter = 4;
 
         $("#addButton").click(function () {
             var newInput3 = $('<input type="text" name="textbox' + counter + '" class="subject-input">');
@@ -77,19 +77,19 @@
             $(".Input1").append(newInput1);
             $(".Input2").append(newInput2);
 
-            counter += 3;
+            counter += 4;
         });
 
         $("#removeButton").click(function () {
-            if (counter > 3) {
-                counter -= 3;
-                $("#textbox" + counter).remove();
-                $("#textbox" + (counter + 1)).remove();
-                $("#textbox" + (counter + 2)).remove();
-            } else {
-                alert("You can't delete the initial input.");
-            }
-        });
+    if (counter > 4) {
+        counter -= 4;
+        $(".Input3 input[type='text']").last().remove();
+        $(".Input1 input[type='text']").last().remove();
+        $(".Input2 input[type='text']").last().remove();
+    } else {
+        alert("You can't delete the initial input.");
+    }
+});
 
         $("#storeButton").click(function () {
             var subjects = [];
