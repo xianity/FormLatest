@@ -17,12 +17,20 @@
                 <p>GWA CALCULATOR</p>
         </div>
         <div>
+            <div class="headinput">
+            <div>
             <h2>STUDENT NAME</h2>
             <input type="text" name="name" id="name" placeholder="Enter Student Name" requied>
+            </div>
+            <div>
             <h2>PROGRAM</h2>
             <input type="text" name="program" id="program" placeholder="Enter Student Program" requied>
+            </div>
+            <div>
             <h2>COURSE</h2>
             <input type="text" name="course" id="course" placeholder="Enter Student Course" requied>
+            </div>
+            </div>
         </div>
             <div class="inputDesign">
                 <div class="Input3">
